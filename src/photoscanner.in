@@ -1,0 +1,29 @@
+#!@PYTHON@
+# SPDX-License-Identifier: GPL-3.0-or-later
+import gettext
+import locale
+import os
+import signal
+import sys
+
+VERSION = "@VERSION@"
+APP_ID = "@APP_ID@"
+DEVELOPER_NAME = "@DEVELOPER_NAME@"
+REPO_URL = "@REPO_URL@"
+pkgdatadir = "@pkgdatadir@"
+localedir = "@localedir@"
+
+sys.path.insert(1, pkgdatadir)
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+try:
+    locale.setlocale(locale.LC_ALL, "")
+except locale.Error:
+    pass
+locale.bindtextdomain("photoscanner", localedir)
+locale.textdomain("photoscanner")
+gettext.bindtextdomain("photoscanner", localedir)
+gettext.textdomain("photoscanner")
+
+if __name__ == "__main__":
+    from photoscanner import main
+    sys.exit(main.main(VERSION, APP_ID, DEVELOPER_NAME, REPO_URL))

@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"#-#-#-#-#  desk.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 22:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  meta.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 22:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  py.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 22:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: data/app.desktop.in.in:2 data/app.metainfo.xml.in.in:7
+#: src/photoscanner/main.py:44 src/photoscanner/window.py:57
+msgid "Photo Scanner"
+msgstr ""
+
+#: data/app.desktop.in.in:3 data/app.metainfo.xml.in.in:8
+msgid "Turn photos of documents into scans"
+msgstr ""
+
+#. TRANSLATORS: search terms, separated by ";" and ending with ";"
+#: data/app.desktop.in.in:5
+msgid "scanner;scan;document;pdf;photo;receipt;paper;"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:10
+msgid ""
+"Photo Scanner turns photos of documents, receipts and notes taken with a "
+"phone into clean, straight scans and PDF files."
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:15
+msgid ""
+"Finds the sheet of paper automatically, even on a table of a similar color"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:16
+msgid ""
+"Corners and sides can be adjusted by hand, with a magnifier for precision"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:17
+msgid "Removes shadows and uneven lighting"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:18
+msgid "Enhanced color, grayscale and black and white filters"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:19
+msgid "Rotate and reorder pages, then export a multi-page PDF or images"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:20
+msgid "Opens JPEG, PNG, HEIC, WebP, AVIF, JPEG XL and more"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:22
+msgid "Everything happens on your computer: no account and no cloud."
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:38
+msgid "Adjusting the corners of the sheet"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:42
+msgid "A magnifier helps to place the corners precisely"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:46
+msgid "The finished scan, ready to be exported"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:50
+msgid "Drop photos to start"
+msgstr ""
+
+#: data/app.metainfo.xml.in.in:69
+msgid "First release."
+msgstr ""
+
+#: src/photoscanner/main.py:50
+msgid "Turn photos of documents into clean scans and PDF files"
+msgstr ""
+
+#. TRANSLATORS: put your name here, it is shown in the About dialog
+#: src/photoscanner/main.py:54
+msgid "translator-credits"
+msgstr ""
+
+#: src/photoscanner/window.py:17
+msgid "Enhanced Color"
+msgstr ""
+
+#: src/photoscanner/window.py:18
+msgid "Grayscale"
+msgstr ""
+
+#: src/photoscanner/window.py:19
+msgid "Black and White"
+msgstr ""
+
+#: src/photoscanner/window.py:20
+msgid "Original"
+msgstr ""
+
+#: src/photoscanner/window.py:79 src/photoscanner/window.py:240
+msgid "Add Photos"
+msgstr ""
+
+#: src/photoscanner/window.py:83
+msgid "Working…"
+msgstr ""
+
+#: src/photoscanner/window.py:87
+msgid "A4 Pages"
+msgstr ""
+
+#: src/photoscanner/window.py:88
+msgid "Pages the Size of the Document"
+msgstr ""
+
+#: src/photoscanner/window.py:89
+msgid "PDF Page Size"
+msgstr ""
+
+#: src/photoscanner/window.py:91 src/photoscanner/window.py:241
+msgid "Save as Images…"
+msgstr ""
+
+#: src/photoscanner/window.py:92
+msgid "Remove All Pages"
+msgstr ""
+
+#: src/photoscanner/window.py:95 src/photoscanner/window.py:253
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/photoscanner/window.py:96
+msgid "About Photo Scanner"
+msgstr ""
+
+#: src/photoscanner/window.py:99
+msgid "Main Menu"
+msgstr ""
+
+#: src/photoscanner/window.py:100 src/photoscanner/window.py:240
+msgid "Export PDF"
+msgstr ""
+
+#: src/photoscanner/window.py:108
+msgid "Scan a Document"
+msgstr ""
+
+#: src/photoscanner/window.py:109
+msgid ""
+"Drop photos of documents here, or choose them. The sheet is found "
+"automatically and its corners can be adjusted by hand."
+msgstr ""
+
+#: src/photoscanner/window.py:112
+msgid "Choose Photos…"
+msgstr ""
+
+#: src/photoscanner/window.py:123
+msgid "Pages"
+msgstr ""
+
+#: src/photoscanner/window.py:127 src/photoscanner/window.py:243
+msgid "Move Up"
+msgstr ""
+
+#: src/photoscanner/window.py:128 src/photoscanner/window.py:243
+msgid "Move Down"
+msgstr ""
+
+#: src/photoscanner/window.py:129 src/photoscanner/window.py:243
+msgid "Remove Page"
+msgstr ""
+
+#: src/photoscanner/window.py:144
+msgid "Corners"
+msgstr ""
+
+#: src/photoscanner/window.py:145
+msgid "Adjust the corners of the sheet"
+msgstr ""
+
+#: src/photoscanner/window.py:146
+msgid "Result"
+msgstr ""
+
+#: src/photoscanner/window.py:147
+msgid "Show the finished scan"
+msgstr ""
+
+#: src/photoscanner/window.py:154
+msgid "Filter (applies to all pages)"
+msgstr ""
+
+#: src/photoscanner/window.py:158 src/photoscanner/window.py:242
+msgid "Rotate Right"
+msgstr ""
+
+#: src/photoscanner/window.py:159 src/photoscanner/window.py:242
+msgid "Rotate Left"
+msgstr ""
+
+#: src/photoscanner/window.py:161
+msgid "Whole Photo"
+msgstr ""
+
+#: src/photoscanner/window.py:162
+msgid "Use the whole photo, without cropping"
+msgstr ""
+
+#: src/photoscanner/window.py:163 src/photoscanner/window.py:242
+msgid "Detect"
+msgstr ""
+
+#: src/photoscanner/window.py:164
+msgid "Find the corners of the sheet again"
+msgstr ""
+
+#: src/photoscanner/window.py:241
+msgid "Switch Corners/Result"
+msgstr ""
+
+#: src/photoscanner/window.py:244
+msgid "Close Window"
+msgstr ""
+
+#: src/photoscanner/window.py:244
+msgid "Quit"
+msgstr ""
+
+#: src/photoscanner/window.py:260
+msgid "Photos"
+msgstr ""
+
+#: src/photoscanner/window.py:265
+msgid "Choose Photos of Documents"
+msgstr ""
+
+#: src/photoscanner/window.py:315
+#, python-brace-format
+msgid "Cannot open: {}"
+msgstr ""
+
+#: src/photoscanner/window.py:317 src/photoscanner/window.py:431
+msgid "Sheet not found: drag the corners onto its edges"
+msgstr ""
+
+#: src/photoscanner/window.py:318
+msgid "In some photos the sheet was not found: adjust the corners by hand"
+msgstr ""
+
+#: src/photoscanner/window.py:336
+#, python-brace-format
+msgid "Page {}"
+msgstr ""
+
+#. TRANSLATORS: default file name; {} is the date and time
+#: src/photoscanner/window.py:465
+#, python-brace-format
+msgid "Scan {}"
+msgstr ""
+
+#: src/photoscanner/window.py:468
+msgid "Save PDF"
+msgstr ""
+
+#: src/photoscanner/window.py:485
+#, python-brace-format
+msgid "PDF saved ({} page)"
+msgid_plural "PDF saved ({} pages)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/photoscanner/window.py:488 src/photoscanner/window.py:511
+#, python-brace-format
+msgid "Could not save: {}"
+msgstr ""
+
+#: src/photoscanner/window.py:493
+msgid "Choose a Folder for the Images"
+msgstr ""
+
+#: src/photoscanner/window.py:508
+#, python-brace-format
+msgid "{} image saved"
+msgid_plural "{} images saved"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/photoscanner/window.py:521
+msgid "Open"
+msgstr ""

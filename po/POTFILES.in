@@ -1,0 +1,5 @@
+# Files with translatable strings
+data/app.desktop.in.in
+data/app.metainfo.xml.in.in
+src/photoscanner/main.py
+src/photoscanner/window.py

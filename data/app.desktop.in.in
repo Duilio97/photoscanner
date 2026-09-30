@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Photo Scanner
+Comment=Turn photos of documents into scans
+# TRANSLATORS: search terms, separated by ";" and ending with ";"
+Keywords=scanner;scan;document;pdf;photo;receipt;paper;
+Exec=photoscanner %F
+Icon=@APP_ID@
+Terminal=false
+Type=Application
+Categories=Graphics;Scanning;Office;
+MimeType=image/jpeg;image/png;image/heic;image/heif;image/webp;image/tiff;image/bmp;image/avif;image/jxl;
+StartupNotify=true

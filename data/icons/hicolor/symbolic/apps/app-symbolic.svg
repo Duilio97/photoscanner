@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g fill="#2e3436">
+    <!-- sheet outline (filled ring, symbolic icons must use fills) -->
+    <path fill-rule="evenodd" d="M3.2 2.2 L13.3 3 L12.8 14 L2.5 13.2 Z M4.4 3.6 L4.0 11.9 L11.6 12.5 L12 4.3 Z"/>
+    <!-- writing -->
+    <path d="M5.3 5.2 L10.6 5.6 L10.55 6.7 L5.25 6.3 Z"/>
+    <path d="M5.2 7.7 L10.4 8.1 L10.35 9.2 L5.15 8.8 Z"/>
+    <!-- corner handles -->
+    <circle cx="3.2" cy="2.4" r="2"/>
+    <circle cx="13.2" cy="3.1" r="2"/>
+    <circle cx="12.8" cy="13.8" r="2"/>
+    <circle cx="2.6" cy="13.1" r="2"/>
+  </g>
+</svg>

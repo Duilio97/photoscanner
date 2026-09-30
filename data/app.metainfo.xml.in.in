@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<component type="desktop-application">
+  <id>@APP_ID@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Photo Scanner</name>
+  <summary>Turn photos of documents into scans</summary>
+  <description>
+    <p>
+      Photo Scanner turns photos of documents, receipts and notes taken with a phone
+      into clean, straight scans and PDF files.
+    </p>
+    <ul>
+      <li>Finds the sheet of paper automatically, even on a table of a similar color</li>
+      <li>Corners and sides can be adjusted by hand, with a magnifier for precision</li>
+      <li>Removes shadows and uneven lighting</li>
+      <li>Enhanced color, grayscale and black and white filters</li>
+      <li>Rotate and reorder pages, then export a multi-page PDF or images</li>
+      <li>Opens JPEG, PNG, HEIC, WebP, AVIF, JPEG XL and more</li>
+    </ul>
+    <p>
+      Everything happens on your computer: no account and no cloud.
+    </p>
+  </description>
+  <developer id="@DEVELOPER_ID@">
+    <name translate="no">@DEVELOPER_NAME@</name>
+  </developer>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+  <translation type="gettext">photoscanner</translation>
+  <url type="homepage">@REPO_URL@</url>
+  <url type="bugtracker">@REPO_URL@/issues</url>
+  <url type="vcs-browser">@REPO_URL@</url>
+  <url type="translate">@REPO_URL@/tree/main/po</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>@RAW_URL@/data/screenshots/corners.png</image>
+      <caption>Adjusting the corners of the sheet</caption>
+    </screenshot>
+    <screenshot>
+      <image>@RAW_URL@/data/screenshots/loupe.png</image>
+      <caption>A magnifier helps to place the corners precisely</caption>
+    </screenshot>
+    <screenshot>
+      <image>@RAW_URL@/data/screenshots/result.png</image>
+      <caption>The finished scan, ready to be exported</caption>
+    </screenshot>
+    <screenshot>
+      <image>@RAW_URL@/data/screenshots/empty.png</image>
+      <caption>Drop photos to start</caption>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <branding>
+    <color type="primary" scheme_preference="light">#99c1f1</color>
+    <color type="primary" scheme_preference="dark">#1a5fb4</color>
+  </branding>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <releases>
+    <release version="1.0.0" date="2026-10-01">
+      <description>
+        <p>First release.</p>
+      </description>
+    </release>
+  </releases>
+</component>

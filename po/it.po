@@ -1,0 +1,301 @@
+# Italian translation for Photo Scanner.
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: photoscanner\n"
+"PO-Revision-Date: 2026-10-01 00:00+0200\n"
+"Last-Translator: Duilio\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/app.desktop.in.in:2 data/app.metainfo.xml.in.in:7
+#: src/photoscanner/main.py:44 src/photoscanner/window.py:57
+msgid "Photo Scanner"
+msgstr "Photo Scanner"
+
+#: data/app.desktop.in.in:3 data/app.metainfo.xml.in.in:8
+msgid "Turn photos of documents into scans"
+msgstr "Trasforma le foto di documenti in scansioni"
+
+#. TRANSLATORS: search terms, separated by ";" and ending with ";"
+#: data/app.desktop.in.in:5
+msgid "scanner;scan;document;pdf;photo;receipt;paper;"
+msgstr "scanner;scansione;scansionare;documento;pdf;foto;ricevuta;scontrino;foglio;"
+
+#: data/app.metainfo.xml.in.in:10
+msgid ""
+"Photo Scanner turns photos of documents, receipts and notes taken with a "
+"phone into clean, straight scans and PDF files."
+msgstr "Photo Scanner trasforma le foto di documenti, ricevute e appunti scattate con il telefono in scansioni pulite e diritte e in file PDF."
+
+#: data/app.metainfo.xml.in.in:15
+msgid ""
+"Finds the sheet of paper automatically, even on a table of a similar color"
+msgstr "Trova il foglio da solo, anche su un tavolo di colore simile"
+
+#: data/app.metainfo.xml.in.in:16
+msgid ""
+"Corners and sides can be adjusted by hand, with a magnifier for precision"
+msgstr "Angoli e lati si possono sistemare a mano, con una lente per essere precisi"
+
+#: data/app.metainfo.xml.in.in:17
+msgid "Removes shadows and uneven lighting"
+msgstr "Toglie le ombre e la luce non uniforme"
+
+#: data/app.metainfo.xml.in.in:18
+msgid "Enhanced color, grayscale and black and white filters"
+msgstr "Filtri colore migliorato, scala di grigi e bianco e nero"
+
+#: data/app.metainfo.xml.in.in:19
+msgid "Rotate and reorder pages, then export a multi-page PDF or images"
+msgstr "Ruota e riordina le pagine, poi esporta un PDF di più pagine o delle immagini"
+
+#: data/app.metainfo.xml.in.in:20
+msgid "Opens JPEG, PNG, HEIC, WebP, AVIF, JPEG XL and more"
+msgstr "Apre JPEG, PNG, HEIC, WebP, AVIF, JPEG XL e altri formati"
+
+#: data/app.metainfo.xml.in.in:22
+msgid "Everything happens on your computer: no account and no cloud."
+msgstr "Tutto avviene sul tuo computer: niente account e niente cloud."
+
+#: data/app.metainfo.xml.in.in:38
+msgid "Adjusting the corners of the sheet"
+msgstr "Sistemare gli angoli del foglio"
+
+#: data/app.metainfo.xml.in.in:42
+msgid "A magnifier helps to place the corners precisely"
+msgstr "Una lente aiuta a posizionare gli angoli con precisione"
+
+#: data/app.metainfo.xml.in.in:46
+msgid "The finished scan, ready to be exported"
+msgstr "La scansione finita, pronta da esportare"
+
+#: data/app.metainfo.xml.in.in:50
+msgid "Drop photos to start"
+msgstr "Trascina le foto per cominciare"
+
+#: data/app.metainfo.xml.in.in:69
+msgid "First release."
+msgstr "Prima versione."
+
+#: src/photoscanner/main.py:50
+msgid "Turn photos of documents into clean scans and PDF files"
+msgstr "Trasforma le foto di documenti in scansioni pulite e in file PDF"
+
+#. TRANSLATORS: put your name here, it is shown in the About dialog
+#: src/photoscanner/main.py:54
+msgid "translator-credits"
+msgstr "Duilio"
+
+#: src/photoscanner/window.py:17
+msgid "Enhanced Color"
+msgstr "Colore migliorato"
+
+#: src/photoscanner/window.py:18
+msgid "Grayscale"
+msgstr "Scala di grigi"
+
+#: src/photoscanner/window.py:19
+msgid "Black and White"
+msgstr "Bianco e nero"
+
+#: src/photoscanner/window.py:20
+msgid "Original"
+msgstr "Originale"
+
+#: src/photoscanner/window.py:79 src/photoscanner/window.py:240
+msgid "Add Photos"
+msgstr "Aggiungi foto"
+
+#: src/photoscanner/window.py:83
+msgid "Working…"
+msgstr "Elaborazione…"
+
+#: src/photoscanner/window.py:87
+msgid "A4 Pages"
+msgstr "Pagine A4"
+
+#: src/photoscanner/window.py:88
+msgid "Pages the Size of the Document"
+msgstr "Pagine grandi come il documento"
+
+#: src/photoscanner/window.py:89
+msgid "PDF Page Size"
+msgstr "Formato delle pagine del PDF"
+
+#: src/photoscanner/window.py:91 src/photoscanner/window.py:241
+msgid "Save as Images…"
+msgstr "Salva come immagini…"
+
+#: src/photoscanner/window.py:92
+msgid "Remove All Pages"
+msgstr "Togli tutte le pagine"
+
+#: src/photoscanner/window.py:95 src/photoscanner/window.py:253
+msgid "Keyboard Shortcuts"
+msgstr "Scorciatoie da tastiera"
+
+#: src/photoscanner/window.py:96
+msgid "About Photo Scanner"
+msgstr "Informazioni su Photo Scanner"
+
+#: src/photoscanner/window.py:99
+msgid "Main Menu"
+msgstr "Menu principale"
+
+#: src/photoscanner/window.py:100 src/photoscanner/window.py:240
+msgid "Export PDF"
+msgstr "Esporta PDF"
+
+#: src/photoscanner/window.py:108
+msgid "Scan a Document"
+msgstr "Scansiona un documento"
+
+#: src/photoscanner/window.py:109
+msgid ""
+"Drop photos of documents here, or choose them. The sheet is found "
+"automatically and its corners can be adjusted by hand."
+msgstr "Trascina qui le foto dei documenti, oppure sceglile. Il foglio viene trovato da solo e i suoi angoli si possono sistemare a mano."
+
+#: src/photoscanner/window.py:112
+msgid "Choose Photos…"
+msgstr "Scegli le foto…"
+
+#: src/photoscanner/window.py:123
+msgid "Pages"
+msgstr "Pagine"
+
+#: src/photoscanner/window.py:127 src/photoscanner/window.py:243
+msgid "Move Up"
+msgstr "Sposta su"
+
+#: src/photoscanner/window.py:128 src/photoscanner/window.py:243
+msgid "Move Down"
+msgstr "Sposta giù"
+
+#: src/photoscanner/window.py:129 src/photoscanner/window.py:243
+msgid "Remove Page"
+msgstr "Togli la pagina"
+
+#: src/photoscanner/window.py:144
+msgid "Corners"
+msgstr "Bordi"
+
+#: src/photoscanner/window.py:145
+msgid "Adjust the corners of the sheet"
+msgstr "Sistema gli angoli del foglio"
+
+#: src/photoscanner/window.py:146
+msgid "Result"
+msgstr "Risultato"
+
+#: src/photoscanner/window.py:147
+msgid "Show the finished scan"
+msgstr "Mostra la scansione finita"
+
+#: src/photoscanner/window.py:154
+msgid "Filter (applies to all pages)"
+msgstr "Filtro (vale per tutte le pagine)"
+
+#: src/photoscanner/window.py:158 src/photoscanner/window.py:242
+msgid "Rotate Right"
+msgstr "Ruota a destra"
+
+#: src/photoscanner/window.py:159 src/photoscanner/window.py:242
+msgid "Rotate Left"
+msgstr "Ruota a sinistra"
+
+#: src/photoscanner/window.py:161
+msgid "Whole Photo"
+msgstr "Tutta la foto"
+
+#: src/photoscanner/window.py:162
+msgid "Use the whole photo, without cropping"
+msgstr "Usa tutta la foto, senza ritagliare"
+
+#: src/photoscanner/window.py:163 src/photoscanner/window.py:242
+msgid "Detect"
+msgstr "Trova bordi"
+
+#: src/photoscanner/window.py:164
+msgid "Find the corners of the sheet again"
+msgstr "Cerca di nuovo gli angoli del foglio"
+
+#: src/photoscanner/window.py:241
+msgid "Switch Corners/Result"
+msgstr "Passa da Bordi a Risultato"
+
+#: src/photoscanner/window.py:244
+msgid "Close Window"
+msgstr "Chiudi la finestra"
+
+#: src/photoscanner/window.py:244
+msgid "Quit"
+msgstr "Esci"
+
+#: src/photoscanner/window.py:260
+msgid "Photos"
+msgstr "Foto"
+
+#: src/photoscanner/window.py:265
+msgid "Choose Photos of Documents"
+msgstr "Scegli le foto dei documenti"
+
+#: src/photoscanner/window.py:315
+#, python-brace-format
+msgid "Cannot open: {}"
+msgstr "Impossibile aprire: {}"
+
+#: src/photoscanner/window.py:317 src/photoscanner/window.py:431
+msgid "Sheet not found: drag the corners onto its edges"
+msgstr "Foglio non trovato: trascina gli angoli sui suoi bordi"
+
+#: src/photoscanner/window.py:318
+msgid "In some photos the sheet was not found: adjust the corners by hand"
+msgstr "In alcune foto il foglio non è stato trovato: sistema gli angoli a mano"
+
+#: src/photoscanner/window.py:336
+#, python-brace-format
+msgid "Page {}"
+msgstr "Pagina {}"
+
+#. TRANSLATORS: default file name; {} is the date and time
+#: src/photoscanner/window.py:465
+#, python-brace-format
+msgid "Scan {}"
+msgstr "Scansione {}"
+
+#: src/photoscanner/window.py:468
+msgid "Save PDF"
+msgstr "Salva il PDF"
+
+#: src/photoscanner/window.py:485
+#, python-brace-format
+msgid "PDF saved ({} page)"
+msgid_plural "PDF saved ({} pages)"
+msgstr[0] "PDF salvato ({} pagina)"
+msgstr[1] "PDF salvato ({} pagine)"
+
+#: src/photoscanner/window.py:488 src/photoscanner/window.py:511
+#, python-brace-format
+msgid "Could not save: {}"
+msgstr "Salvataggio non riuscito: {}"
+
+#: src/photoscanner/window.py:493
+msgid "Choose a Folder for the Images"
+msgstr "Scegli una cartella per le immagini"
+
+#: src/photoscanner/window.py:508
+#, python-brace-format
+msgid "{} image saved"
+msgid_plural "{} images saved"
+msgstr[0] "{} immagine salvata"
+msgstr[1] "{} immagini salvate"
+
+#: src/photoscanner/window.py:521
+msgid "Open"
+msgstr "Apri"
