@@ -23,9 +23,18 @@ uses OpenCV and NumPy.
 
 ## Install
 
-Photo Scanner is meant to be distributed as a Flatpak.
+Download `PhotoScanner-<version>-x86_64.flatpak` from the
+[latest release](https://github.com/Duilio97/photoscanner/releases/latest) and open it
+with your software center, or install it from a terminal:
 
-To build and install it from the sources:
+```sh
+flatpak install --user PhotoScanner-1.0.0-x86_64.flatpak
+```
+
+The GNOME runtime it needs is downloaded from Flathub automatically.
+Updates are not automatic: install the file of a newer release to update.
+
+### Build from the sources
 
 ```sh
 flatpak install flathub org.flatpak.Builder org.gnome.Sdk//51
